@@ -1,4 +1,4 @@
-package com.example.lugaresprogramovil
+package com.example.lugares
 
 import org.junit.Test
 
