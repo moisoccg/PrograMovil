@@ -6,64 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="137dp"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Correo"
-            android:textAlignment="center"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
-
-        <EditText
-            android:id="@+id/et_email"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName" />
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Password"
-            android:textAlignment="center"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
-
-        <EditText
-            android:id="@+id/et_password"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPassword" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="415dp"
-        android:layout_height="51dp"
-        android:orientation="horizontal"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="139dp">
-
-        <ImageButton
-            android:id="@+id/bt_login"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/ic_login" />
-
-        <ImageButton
-            android:id="@+id/bt_register"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/ic_register" />
-    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
